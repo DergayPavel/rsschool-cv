@@ -22,76 +22,76 @@
 ## 5. Сode example from Сodewars:
 ### [Kata](https://www.codewars.com/kata/52742f58faf5485cae000b9a)
 ### Code:
-        `
-        function formatDuration (s) {
-            if(s===0){
-                return 'now'
-            }
-            let y=Math.floor(s/60/60/24/365);  
-            let d=Math.floor(s/60/60/24)-y*365;  
-            let h=Math.floor(s/60/60)-d*24-y*365*24;
-            let m=Math.floor(s/60)-h*60-d*24*60-y*365*24*60;
-            s=s-y*365*24*60*60-d*24*60*60-h*60*60-m*60;
-            let result='';
-            if(y!=0){
-                if(y===1){
-                    result+=y+' year';
-                }
-                else{
-                    result+=y+' years';
-                }
-                if(d!=0 || m!=0 || s!=0 || h!=0){
-                    result+=', ';
-                }
-            }
-            if(d!=0){
-                if(d===1){
-                    result+=d+' day';
-                }
-                else{
-                    result+=d+' days';
-                }
-                if( (m!=0 && s!=0) || (h!=0 && s!=0) || (h!=0 && m!=0)){
-                    result+=', ';
-                }
-            }
-            if(h!=0){
-                if((d!=0 || d!=0) && (s===0 && m==0)){
-                    result+=' and '
-                }
-                if(h===1){
-                    result+=h+' hour'
-                }
-                else{
-                    result+=h+' hours'
-                }
-                if(s!=0 && m!=0){
-                    result+=', ';
-                }
-            }
-            if(m!=0){
-                if((d!=0 || h!=0) && s===0){
-                    result+=' and '
-                }
-            if(m===1){
-                result+=m+' minute'
+    `
+    function formatDuration (s) {
+        if(s===0){
+            return 'now'
+        }
+        let y=Math.floor(s/60/60/24/365);  
+        let d=Math.floor(s/60/60/24)-y*365;  
+        let h=Math.floor(s/60/60)-d*24-y*365*24;
+        let m=Math.floor(s/60)-h*60-d*24*60-y*365*24*60;
+        s=s-y*365*24*60*60-d*24*60*60-h*60*60-m*60;
+        let result='';
+        if(y!=0){
+            if(y===1){
+                result+=y+' year';
             }
             else{
-                result+=m+' minutes'
+                result+=y+' years';
+            }
+            if(d!=0 || m!=0 || s!=0 || h!=0){
+                result+=', ';
             }
         }
-        if(s!=0){
-            if(d!=0 || m!=0 || h!=0){
+        if(d!=0){
+            if(d===1){
+                result+=d+' day';
+            }
+            else{
+                result+=d+' days';
+            }
+            if( (m!=0 && s!=0) || (h!=0 && s!=0) || (h!=0 && m!=0)){
+                result+=', ';
+            }
+        }
+        if(h!=0){
+            if((d!=0 || d!=0) && (s===0 && m==0)){
                 result+=' and '
             }
-            if(s===1){
-                result+=s+' second'
+            if(h===1){
+                result+=h+' hour'
             }
             else{
-                result+=s+' seconds'
+                result+=h+' hours'
+            }
+            if(s!=0 && m!=0){
+                result+=', ';
             }
         }
-        return result
+        if(m!=0){
+            if((d!=0 || h!=0) && s===0){
+                result+=' and '
+            }
+        if(m===1){
+            result+=m+' minute'
+        }
+        else{
+            result+=m+' minutes'
+        }
+    }
+    if(s!=0){
+        if(d!=0 || m!=0 || h!=0){
+            result+=' and '
+        }
+        if(s===1){
+            result+=s+' second'
+        }
+        else{
+            result+=s+' seconds'
+        }
+    }
+    return result
     }
     `
 
@@ -107,6 +107,7 @@
 * 2022-2023 TeachMeSkills FrontEnd developer (React)
 * 2018-2022 BSU Faculty of Physics, Physics (industrial activity) - score 7.3
 
-## 8. English:
-* Level: A2-B1
-* Experience: Reading and discussing technical documentation.
+## 8. Language:
+* English: A2-B1 
+Experience: Reading and discussing technical documentation.
+* Russian: Native.
