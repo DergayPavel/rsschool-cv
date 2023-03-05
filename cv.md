@@ -3,13 +3,13 @@
 ## 1. Pavel Dergay
 
 ## 2. Contacts:
-    * Mobile phone: +375339030965
-    * Mail: pavel.dergay@mail.ru
-    * Telegram: @PavelDergay
-    * LinkedIn: https://www.linkedin.com/in/pavel-dergay/
+* Mobile phone: +375339030965
+* Mail: pavel.dergay@mail.ru
+* Telegram: @PavelDergay
+* LinkedIn: https://www.linkedin.com/in/pavel-dergay/
 
 ## 3. About me: 
-    BSU graduate (with an average score of 7.3), thanks to my studies at the Faculty of Physics, I have an excellent mathematical and physical base,as well as the basics of quantum mechanics, thermodynamics. More than two years of experience in automation of technological processes and software development for human-machine interface. I have been studying Frontend development for more than a year. I am currently participating in a project to develop a website for chatbot orders.
+> BSU graduate (with an average score of 7.3), thanks to my studies at the Faculty of Physics, I have an excellent mathematical and physical base,as well as the basics of quantum mechanics, thermodynamics. More than two years of experience in automation of technological processes and software development for human-machine interface. I have been studying Frontend development for more than a year. I am currently participating in a project to develop a website for chatbot orders.
 
 ## 4. Skills:
 * HTML
