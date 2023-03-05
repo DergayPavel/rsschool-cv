@@ -102,8 +102,8 @@
         5. https://github.com/DergayPavel/ProjectTwo - HTML, SCSS
 
 7. ## Education
-    2022-2023 TeachMeSkills FrontEnd developer (React)
-    2018-2022 BSU Faculty of Physics, Physics (industrial activity) - score 7.3
+    * 2022-2023 TeachMeSkills FrontEnd developer (React)
+    * 2018-2022 BSU Faculty of Physics, Physics (industrial activity) - score 7.3
 
 8. ## English:
     * Level: A2-B1
