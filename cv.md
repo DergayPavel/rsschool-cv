@@ -20,7 +20,8 @@
     * Git
 
 5. ## Сode example from Сodewars:
-    ### Kata: https://www.codewars.com/kata/52742f58faf5485cae000b9a
+    ### Kata: 
+    [Link](https://www.codewars.com/kata/52742f58faf5485cae000b9a)
     ### Code:
         `function formatDuration (s) {
             if(s===0){
@@ -95,11 +96,11 @@
 
 6. ## Experience:
     ### Learning projects:
-        1. https://github.com/DergayPavel/Diploma - React, JS, TS, Axios.
-        2. https://github.com/DergayPavel/Project_NBRB - HTML, CSS, JS, Fetch API 
-        3. https://github.com/DergayPavel/PokemonPage - HTML, CSS, JS, Fetch API 
-        4. https://github.com/DergayPavel/ProjectOne - HTML, CSS
-        5. https://github.com/DergayPavel/ProjectTwo - HTML, SCSS
+        1. [Link](https://github.com/DergayPavel/Diploma) - React, JS, TS, Axios.
+        2. [Link](https://github.com/DergayPavel/Project_NBRB) - HTML, CSS, JS, Fetch API 
+        3. [Link](https://github.com/DergayPavel/PokemonPage) - HTML, CSS, JS, Fetch API 
+        4. [Link](https://github.com/DergayPavel/ProjectOne) - HTML, CSS
+        5. [Link](https://github.com/DergayPavel/ProjectTwo) - HTML, SCSS
 
 7. ## Education
     * 2022-2023 TeachMeSkills FrontEnd developer (React)
