@@ -1,0 +1,156 @@
+body{
+    background-color: #faf7f2;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+a{
+    color: black;
+    border: 0;
+    text-decoration:none;
+}
+
+.box{
+    width:1240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box_left{
+    width: 60%;
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.box_left__infoBox{
+    display: flex;
+    flex-direction: column;
+}
+.box-name{
+    font-size: 20px;
+    font-weight: bold;
+}
+.box-nameCv{
+    font-size: 28px;
+    font-weight: bold;
+}
+.box-name{
+    font-size: 24px;
+    font-weight: bold;
+}
+.box_left__infoBox-info{
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+.box_left__summary{
+    margin-top: 21px;
+}
+
+.box_left__summary-info{
+    margin-top: 5px;
+    font-family: 'Glacial Indifference';
+    font-size: 20px;
+}
+
+.box_left__experience{
+    margin-top: 15px;
+}
+
+.box_left__experience-box{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    margin-top: 5px;
+}
+
+.box_left__experience-post{
+    margin-top: 5px;
+    font-weight: bold ;
+    font-size: 20px;
+}
+
+.box_left__summary-company{
+    margin-top: 5px;
+    font-weight: bold ;
+    font-size: 20px;
+}
+
+.box_left__experience-time{
+    width: 150px;
+    text-align: end;
+    font-size: 20px;
+}
+
+.box_line{
+    background-color: black;
+    width: 1px;
+    height: 100%;
+}
+.box_right{
+    width: 35%;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 5px;
+}
+.box_right__contact{
+    margin-top: 15px;
+}
+.box_right__contact-info{
+    margin-top: 5px;
+    font-family: 'Glacial Indifference';
+    font-size: 20px;
+}
+.box_right__education{
+    margin-top: 15px;
+}
+.box_right__education-info{
+    margin-top: 5px;
+    font-family: 'Glacial Indifference';
+    font-size: 20px;
+}
+.box_right__education-company{
+    margin-top: 5px;
+    font-weight: bold ;
+    font-size: 20px;
+}
+
+.box_right__skills{
+    margin-top: 15px;
+}
+.box_right__skills-info{
+    margin-top: 5px;
+    font-family: 'Glacial Indifference';
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width:875px) {
+    .box{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .box_left{
+        width: 90%;
+    }
+    .box_right{
+        width: 90%;
+    }
+    img{
+        display: none;
+    }
+}
